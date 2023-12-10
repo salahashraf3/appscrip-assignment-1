@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: #121212;
+
+}
+
+input{
+  padding: 4% 6%;
+  margin: 0.5%;
+  background-color: transparent;
+  border: 1px solid #3D3549;
+  border-radius: 10px;
+  color: white;
+}
+input::placeholder{
+  color: aliceblue;
+}

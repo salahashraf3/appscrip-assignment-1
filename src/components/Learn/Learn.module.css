@@ -1,0 +1,71 @@
+.learn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url();
+    margin: 2%;
+    padding: 5%;
+    border-radius: 20px;
+    background: url("../../assets/images/learnMoreBg.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.container h1 {
+    color: rgba(202, 196, 210, 1) ;
+    text-align: center;
+}
+.container p{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.btn{
+    width: 30%;
+    padding: 2% 4%;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    cursor: pointer;
+    background: rgb(59,0,64);
+background: linear-gradient(135deg, rgba(177, 38, 242, 1) 0%, rgba(119, 0, 212, 1) 100%);
+}
+
+.learn_container img{
+    object-fit: contain;
+    border-radius: 60px;
+}
+
+.girl_left{
+    position: absolute;
+    left: -120px;
+    height: 100%;
+    mix-blend-mode: saturation;
+}
+
+.girl_right{
+    position: absolute;
+    right: -100px;
+    mix-blend-mode: saturation;
+    height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .learn_container{
+        padding: 1%;
+        height: 60vh;
+    }
+    .container{
+        width: 98%;
+    }
+}

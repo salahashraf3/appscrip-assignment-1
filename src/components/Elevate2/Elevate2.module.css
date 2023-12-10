@@ -1,0 +1,42 @@
+.elevate2_container{
+    background-color: #121212;
+    padding: 0% 4% 3% 4%;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card{
+    background: rgb(59,0,64);
+background: radial-gradient(circle, rgba(59,0,64,1) 0%, rgba(33,31,33,1) 55%);
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h2{
+color: #CAC4D2;
+}
+
+.card p{
+    color: #BA94DF;
+}
+
+.card img{
+    width: 50%;
+}
+@media (max-width: 1200px) {
+    .card_container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

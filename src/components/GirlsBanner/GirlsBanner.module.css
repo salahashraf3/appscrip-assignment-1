@@ -1,0 +1,20 @@
+.girls_banner_container{
+    height:auto;
+}
+
+.girls_banner_container img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .girls_banner_container{
+        height: auto;
+    }
+    .girls_banner_container img{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,135 @@
+.elevate_container{
+    background-color: #121212;
+    padding: 2% 4%;
+}
+
+.elevate_container h1{
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 46px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card{
+    background: rgb(59,0,64);
+background: radial-gradient(circle, rgba(59,0,64,1) 0%, rgba(33,31,33,1) 55%);
+    /* width: 49%; */
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h2{
+color: #CAC4D2;
+}
+
+.card p{
+    color: #BA94DF;
+}
+
+.card img{
+    width: 50%;
+}
+
+.mini_card_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.mini_card {
+    width: 25%;
+    background-color: #1C1423;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+}
+.mini_card img {
+    width: 100%;
+    height: 100%;
+}
+
+.ecom{
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecom img{
+    width: 100%;
+}
+
+.price_rate{
+    display:  flex;
+    justify-content: space-around;
+}
+
+.left h5{
+    color: #D9D9D9;
+    font-size: 12px;
+}
+.left p{
+    text-align: start;
+}
+.right{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.right img{
+    width: 100%;
+}
+
+.card_left{
+    animation: card_left 1s ease-in-out;
+}
+
+.card_right{
+    animation: card_right 1s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+    .card_container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@keyframes card_left {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes card_right {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
