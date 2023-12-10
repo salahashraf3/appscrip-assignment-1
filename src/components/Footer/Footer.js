@@ -1,6 +1,6 @@
 import React from "react";
 import style from "@/components/Footer/Footer.module.css";
-import logo from "@/assets/icons/logo.svg";
+import logo from "@/assets/icons/icon.png";
 import Image from "next/image";
 import facebook from "@/assets/icons/facebook.png";
 import twitter from "@/assets/icons/twitter.png";

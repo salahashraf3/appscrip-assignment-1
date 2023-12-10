@@ -1,6 +1,6 @@
 import React from "react";
 import style from "@/components/Navbar/Navbar.module.css";
-import logo from "@/assets/icons/logo.svg";
+import logo from "@/assets/icons/icon.png";
 import menu from "@/assets/icons/menuIcon.svg";
 import Image from "next/image";
 import Link from "next/link";
