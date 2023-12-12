@@ -42,7 +42,7 @@ const Elevate = () => {
             From subscriptions and tips to merchandise sales and NFTS, ABC helps
             you diversify your revenue streams and maximize your income.
           </p>
-          <Image src={phone} alt="phone" />
+          <Image src={phone} alt="phone" className={style.phone} />
         </div>
 
         <div className={`${style.card} ${style.card_right}`}>
@@ -60,19 +60,21 @@ const Elevate = () => {
             </div>
             {models.map((value, id) => {
               return (
-                <div className={style.mini_card} key={id}>
-                  <Image src={value.image} alt={value.price} />
-                  <div className={style.price_rate}>
-                    <div className={style.left}>
-                      <h5>{value.name}</h5>
-                      <p>${value.price}</p>
-                    </div>
-                    <div className={style.right}>
-                      <Image src={star} alt="star" />
-                      <p>{value.rating}</p>
+                <>
+                  <div className={value.rating ==="4" ?`${style.mini_card} ${style.hide_card}`: `${style.mini_card}`} key={id}>
+                    <Image src={value.image} alt={value.price} />
+                    <div className={style.price_rate}>
+                      <div className={style.left}>
+                        <h5>{value.name}</h5>
+                        <p>${value.price}</p>
+                      </div>
+                      <div className={style.right}>
+                        <Image src={star} alt="star" />
+                        <p>{value.rating}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </>
               );
             })}
           </div>

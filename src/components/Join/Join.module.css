@@ -37,6 +37,17 @@
     align-items: center;
 
 }
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    color: #cac4d2;
+}
 
 .join_container p{
     color: #89759CB2;
@@ -66,5 +77,8 @@ background: linear-gradient(135deg, rgba(177, 38, 242, 1) 0%, rgba(119, 0, 212, 
     }
     .bubble_right{
         height: 40%;
+    }
+    .container h1{
+       font-size: 20px;
     }
 }

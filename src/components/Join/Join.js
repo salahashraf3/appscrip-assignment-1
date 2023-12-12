@@ -14,7 +14,7 @@ const Join = () => {
           Don&apos;t miss out on ABC&apos;s Incredible features and
           Opportunities.
         </p>
-        <h2>Join us today and unlock your full potential as a creator</h2>
+        <h1>Join us today and unlock your full potential as a creator</h1>
         <button className={style.btn}>Join Now</button>
       </div>
     </div>
