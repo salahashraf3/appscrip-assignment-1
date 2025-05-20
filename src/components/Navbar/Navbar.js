@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import style from "@/components/Navbar/Navbar.module.css";
 import logo from "@/assets/icons/icon.png";
 import menu from "@/assets/icons/menuIcon.svg";
